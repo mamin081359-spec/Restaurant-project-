@@ -1,0 +1,316 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: system-ui;
+   color: white;
+   user-select: none;
+}
+body{
+   width: 100%;
+   background: #5D635DBA;
+}
+.web1,.web-breakfast{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   height: 100%;
+   width: 100%;
+}
+
+.head{
+   background-image: url(/web1/yam-seafood-patio.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 375px;
+   
+}
+.navboard{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 20px;
+}
+.nav-list{
+   display: flex;
+   gap: 30px;
+}
+.nav-list li{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nav-list li a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 550;
+   font-variant: small-caps;
+   color: #22222D;
+   transition: .5s;
+}
+.nav-list .logo a i{
+   text-decoration: none;
+   font-size: 30px;
+   font-variant: small-caps;
+   color: #22222D;
+   height: 50px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #FFFFFF;
+   background: #00FF01;
+   border-radius: 30px;
+}
+.navboard .fa-bars{
+   font-size: 45px;
+   transition: .3s;
+   color:#FFFFFF;
+}
+.head .title-name{
+   font-size: 100px;
+   color: blue;
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   transform: translateY(50px);
+   text-transform: capitalize;
+}
+
+
+.menu{
+   display: flex;
+   width: 83%;
+   justify-content: space-between;
+   align-items: center;
+   background: #FFFFFF;
+   box-shadow: -5px 4px 10px #0000006B;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   padding-right: 20px;
+   height: 70px;
+   border-radius: 30px;
+   text-decoration: none;
+   position: sticky;
+   top: 30px;
+   transition: .5s;
+   z-index: 100;
+}
+
+
+.foot p span{
+   font-size: 40px;
+   color: #000000E3;
+}
+.foot p i{
+   font-size: 50px;
+   color: #81FF6E;
+}
+.foot p{
+   position: sticky;
+   top: 30px;
+   z-index: 90;
+   display: flex;
+   justify-content: space-around;
+}
+
+.foot a .fa-bag-shopping{
+   margin: 4px 0px 0 -5px;
+   color: #1B0101;
+   font-size: 60px;
+}
+.foot{
+   display: flex;
+   gap: 5px 20px;
+   flex-wrap: wrap;
+   border-radius: 30px;
+   padding: 15px;
+   position: relative;
+}
+.foot .mong1{
+   max-width: 45%;  
+   height: 100px;
+   margin: 0 auto;
+   margin-top: 30px;
+   height: 350px;
+   overflow: hidden;
+  margin: 0px 0px 5px 0px;
+  border-radius: 18px;
+  padding: 8px;
+  overflow: hidden;
+  transition: .3s;
+  background: #42445A3B;
+  box-shadow: -10px 8px 10px #0000006B;
+  border: solid 1px #000000;
+}
+.foot .mong1 .image1{
+   width: 100%;
+   border-radius: 15px;
+   object-fit: cover;
+   height: 75%;
+   overflow: hidden;
+}
+.foot .name{
+   font-size: 35px;
+   text-transform: capitalize;
+   color: #FFFFFFFf;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 4px;
+
+}
+.foot .name span{
+   font-size: 30px;
+   color: #151614FC;
+}
+.foot .desc{
+   font-size: 18px;
+   color: #FFFFFFE6;
+   padding: 0 8px;
+   margin-top: -10px;
+}
+
+.nav-list li a:active,.foot p:active,.navboard .fa-bars:active{
+   transform: scale(.96);
+   -webkit-tap-highlight-color: transparent;
+   color: #ACB0ABFC;
+   -webkit-touch-callout: none;
+
+}
+
+
+
+.foot .mong1:active{
+   transform: scale(.94);
+   background: #BDBEBDFC;
+   border-radius: 15px;
+   box-shadow: -20px 25px 10px #0000003D;
+}
+
+
+
+
+.end{
+   margin-top: -550px;
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   gap: 0px;
+   flex-direction: column;
+   align-items: center;
+}
+#area{
+   width: 80%;
+}
+.star{
+   display: flex;
+   gap: 5px;
+   transform: translate(150px,-8px);
+}
+
+.star i{
+   font-size: 15px;
+   color: #FDFDFDC7;
+}
+
+
+.body .dash .menu.menu:active{
+   
+}
+
+
+
+
+
+
+.web2{
+   width: 100%;
+   height: 100vh;
+   display: none;
+   gap: 20px;
+   flex-direction: column;
+   align-items: center;
+}
+.home{
+   width: 100%;
+   height: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/web1/202656e88944163e04db7880a22a3858.jpg);
+   background-size: 100%;
+   object-fit: cover;
+   border-radius: 30px ;
+   transition: .3s;
+   
+}
+.home p{
+   font-size: 85px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 0;
+   gap: 10px;
+}
+
+.squire{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   width: 100%;
+}
+.squire div{
+   width: 45%;
+   background: blue;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 0;
+   border-radius: 20px;
+   border: 1px solid #040404;
+   transition: .3s;
+   box-shadow: -15px 15px 10px #04040499;
+}
+.squire .all{
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 0;
+   background-image: url();
+   height: 75px;
+   border-radius: 60px;
+   box-shadow: -8px 8px 10px #04040499;
+}
+
+.squire div p{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0 25px;
+   font-size: 25px;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   width: 100%;
+}
+
+.squire div p i{
+      font-size: 55px;
+
+}
+
+
+.squire div:active,.home:active{
+   transform: scale(.95);
+   box-shadow: -18px 18px 5px #04040470;
+}
+.web-breakfast{
+   background: #F8F8F8;
+}
