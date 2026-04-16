@@ -2,10 +2,10 @@
 function change(){
    let dor = document.getElementById('door')
    let win = document.getElementById('wind')
-   let brea = document.getElementById('break')
+   
    dor.style.display="flex"
    setTimeout(function(){
-      brea.style.display="none"
+      
       win.style.display="none"}, 1000)
 }
 function chang(){
